@@ -92,7 +92,7 @@ ext = [
     "agno>=2.3.8",
     "nacos-sdk-python>=3.0.0",
     "agent-framework>=1.0.0b251120",
-    "alibabacloud-pailangstudio20240710@https://sdk-portal-us-prod.oss-accelerate.aliyuncs.com/downloads/u-5eebaa3c-604c-411d-a3b9-ea32e5118ae1-python-tea.zip",
+    "alibabacloud-pailangstudio20240710@https://sdk-portal-us-prod.oss-accelerate.aliyuncs.com/downloads/u-6dde58e0-4da7-4c15-9552-e6110d8de291-python-tea.zip",
     "alibabacloud-eas20210701",
 ]
 
