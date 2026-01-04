@@ -19,6 +19,13 @@ try:
 except ImportError:
     AgentRunDeployManager = None  # type: ignore
 
+try:
+    from .pai_deployer import (
+        PAIDeployManager,
+    )
+except ImportError:
+    PAIDeployManager = None  # type: ignore
+
 __all__ = [
     "DeployManager",
     "LocalDeployManager",
@@ -26,4 +33,5 @@ __all__ = [
     "ModelstudioDeployManager",
     "AgentRunDeployManager",
     "KnativeDeployManager",
+    "PAIDeployManager",
 ]
